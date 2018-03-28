@@ -1,0 +1,159 @@
+html{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	margin:0;
+	padding: 0;
+	color: white;
+	font-family: 'Roboto Mono', monospace;
+	background-color: #F94623;
+	background-image: url('triangle_pattern.png');
+	text-align: center;
+	font-size: 12px;
+}
+
+form{
+	display: inline;
+}
+input[type=text]{
+	border-radius: 10px;
+	background-color: #6FDDD3;
+	display: inline;
+	font-family: 'Roboto Mono', monospace;
+	color: #83FFF0;
+	padding:12px;
+	font-size: 35px;
+	margin-top: 60px; 
+}
+
+button{
+	display: inline;
+	font-size: 35px;
+	margin: 30px;
+	padding:12px; 
+	background-color: #071727;
+	color: white;
+	font-family: 'Roboto Mono', monospace;
+	border: none;
+	border-radius: 10px;
+}
+.enter{
+	display: inline;
+	font-size: 35px;
+	margin: 60% auto;
+	padding:12px; 
+	background-color: #071727;
+	color: white;
+	font-family: 'Roboto Mono', monospace;
+	border: none;
+	border-radius: 10px;
+	text-decoration: none;
+	padding-right: 24px;
+	padding-left: 24px;
+}
+.here{
+	text-decoration: none;
+}
+.here:hover{
+	color:#071727;
+}
+.here:visited{
+	color:#F94623;
+}
+
+h1{
+	background-color: #6FDDD3;
+	padding: 20px;
+	margin-top: 80px;
+	font-size: 100px;
+	font-weight: bold;
+
+}
+h2{
+	font-size: 60px;
+	width: 80%;
+	margin: auto;
+}
+.bodycopy{
+	padding-top: 80px;
+	padding-bottom: 80px;
+	font-size: 16px;
+	width: 80%;
+	margin: auto;
+}
+
+
+img{
+	width: 50%;
+	margin: 0;
+
+}
+
+.signup{
+	background-color: white;
+	color: #071727;
+	/*text-align: left;*/
+	margin:auto;
+	width: 80%;
+	border-radius: 30px;
+	padding: 10px;
+	margin-top: 0;
+	padding: 50px;
+	font-size: 30px;
+	margin-bottom: 70px;
+}
+.submissions{
+	font-size: 16px;
+}
+
+.presented{
+	font-size: 10px;
+}
+
+.footer{
+	background-color:#FF9B7D;
+	margin-top: 50px;
+	padding:50px;
+}
+.still-looking{
+	margin-top: 100px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #6FDDD3;
+    margin: 30% auto; /* 15% from the top and centered */
+    border-radius: 12px;
+    padding: 50px;
+    width: 60%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
