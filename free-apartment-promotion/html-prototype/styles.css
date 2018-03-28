@@ -12,7 +12,21 @@ body{
 	text-align: center;
 	font-size: 12px;
 }
-
+@media screen and (max-width:375px){
+	.container{
+		font-size: 2rem;
+		width: 100%;
+		margin: 0;
+		margin: auto;
+	}
+}
+@media screen and (min-width:375px){
+	.container{
+		font-size: 1.5rem;
+		width: 80%;
+		margin: auto;
+	}
+}
 form{
 	display: inline;
 }
@@ -40,7 +54,7 @@ button{
 }
 .enter{
 	display: inline;
-	font-size: 35px;
+	font-size: 1rem;
 	margin: 60% auto;
 	padding:12px; 
 	background-color: #071727;
@@ -75,11 +89,16 @@ h2{
 	width: 80%;
 	margin: auto;
 }
+h4{
+	font-size: 3rem;
+}
 .bodycopy{
+	padding:0;
+	margin:0;
 	padding-top: 80px;
 	padding-bottom: 80px;
-	font-size: 16px;
-	width: 80%;
+	font-size: 2rem;
+	/*width: 80%;*/
 	margin: auto;
 }
 
@@ -95,7 +114,7 @@ img{
 	color: #071727;
 	/*text-align: left;*/
 	margin:auto;
-	width: 80%;
+	/*width: 80%;*/
 	border-radius: 30px;
 	padding: 10px;
 	margin-top: 0;
@@ -108,7 +127,7 @@ img{
 }
 
 .presented{
-	font-size: 10px;
+	font-size: 12px;
 }
 
 .footer{
@@ -120,6 +139,10 @@ img{
 	margin-top: 100px;
 }
 
+.timeline{
+	margin: auto;
+	font-size: 1rem;
+}
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
